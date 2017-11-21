@@ -211,7 +211,7 @@ main() {
 ```
 Calling `plusOne(b)` does not modify `b`, nor does it create a copy of `b`.
 
-   | copy `b` | does not copy `b`
+  x | copy `b` | does not copy `b`
  -: | -------: | -------:
  __modify `b`__ |  | by reference
  __does not modify `b`__ | by value | by constant reference
