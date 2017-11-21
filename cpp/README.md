@@ -117,7 +117,7 @@ int main() {
 ```
 `myString[0]` : `a`, the first character of `myString` <br>
 `myString.size()` : `3`, the length of `myString`
-<br><br><br><br><br><br><br><br>
+
 ### - MEMORY -
 All variables are stored in memory, each occupies a separate location in RAM. <br>
 Addresses are displayed in hexadecimal: `0x7ffdc82c655c` <br>
@@ -130,9 +130,8 @@ pa; // evaluates to 0x7ffdc82c655c
 *pa; // evaluates to 1
 ```
 `&` : address-of operator <br>
-`*` : declare pointer when declaring, otherwise value-at operator <br>
+`*` : declare pointer when declaring, otherwise value-at operator
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ### - FUNCTION -
 ```c++
 [returnType] [functionName]([parameters]) {
@@ -217,8 +216,6 @@ Calling `plusOne(b)` does not modify `b`, nor does it create a copy of `b`.
  __modify `b`__ |  | by reference
  __does not modify `b`__ | by value | by constant reference
 
-
-<br><br><br><br><br><br><br><br><br><br><br><br>
 ### - CLASS -
 ```c++
 class fruit {
@@ -244,7 +241,7 @@ public:
   apple(int q) : fruit(2.5, q) {};
 };
 ```
-<br><br><br><br><br>
+
 #### Virtual functions
 Let's say we were to define the following member function in `apple`:
 ```c++
@@ -269,7 +266,7 @@ fruit *pa = &a;
 (*pa).location(); // evaluates to "Aisle: 5, Location: 12"
 ```
 alternatively, we can use `*pa->location();` instead of `(*pa).location();`.
-<br><br>
+
 #### Operator overloading
 We can make operators do different things for variables with different data types.
 ```c++
