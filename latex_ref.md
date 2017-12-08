@@ -7,7 +7,7 @@
 \end{center}
 ```
 
-#### Assignment with code
+#### Configuration for code
 ```latex
 \documentclass[12pt]{article}
 \usepackage[title]{appendix}
