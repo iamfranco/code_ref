@@ -1,5 +1,12 @@
 # LaTeX Reference
 
+#### include graphics
+```latex
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{graphics.eps}
+\end{center}
+```
+
 #### Assignment with code
 ```latex
 \documentclass[12pt]{article}
