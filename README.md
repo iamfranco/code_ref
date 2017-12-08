@@ -6,3 +6,4 @@ This is my code reference for various programming language. It contains explanat
 * [git](https://github.com/iamfranco/code_ref/blob/master/git_ref.md)
 * [MATLAB](https://github.com/iamfranco/code_ref/blob/master/matlab_ref.md)
 * [LaTeX](https://github.com/iamfranco/code_ref/blob/master/latex_ref.md)
+* [Canvas](https://github.com/iamfranco/code_ref/blob/master/canvas_ref.md)
