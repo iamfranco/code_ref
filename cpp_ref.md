@@ -284,3 +284,12 @@ We can use template to define the function just once for all types, instead of d
 template <typename T>
 ```
 then we can use `T` in place of the data type.
+
+#### Seed time for random
+```c++
+#include <ctime>
+int main() {
+  std::srand(std::time(NULL));
+  return 0;
+}
+```
