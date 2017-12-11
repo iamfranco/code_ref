@@ -293,3 +293,12 @@ int main() {
   return 0;
 }
 ```
+
+#### overload cout (for vector or other structure)
+```c++
+friend std::ostream& operator<<(std::ostream& out, const SomeClass& x) {
+  out << x;
+  return out;
+}
+```
+
