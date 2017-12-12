@@ -18,7 +18,7 @@ A =
      3     3     3
 ```
 
-#### Export plot to eps
+#### Export plot to `figure.eps`
 ```matlab
 x = 1:10;
 y = 1:10;
