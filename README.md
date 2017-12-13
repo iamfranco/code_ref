@@ -9,3 +9,4 @@ This is my code reference for various programming language. It contains explanat
 * [Canvas](https://github.com/iamfranco/code_ref/blob/master/canvas_ref.md)
 * [Python](https://github.com/iamfranco/code_ref/blob/master/python_ref.md)
 * [HTML](https://github.com/iamfranco/code_ref/blob/master/html_ref.md)
+* [Ruby](https://github.com/iamfranco/code_ref/blob/master/ruby_ref.md)
